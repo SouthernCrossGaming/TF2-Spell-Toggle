@@ -1,0 +1,24 @@
+"Games"
+{
+	"tf"
+	{
+        "Functions"
+		{
+			"CTFSpellBook::RollNewSpell"
+			{
+				"signature" "CTFSpellBook::RollNewSpell"
+				"callconv" "thiscall"
+				"return" "void"
+				"this" "address"
+			}
+		}
+		"Signatures"
+		{
+			"CTFSpellBook::RollNewSpell"
+			{
+				"library"	"server"
+				"linux"		"@_ZN12CTFSpellBook12RollNewSpellEib"
+			}
+        }
+    }
+}
